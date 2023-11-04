@@ -590,7 +590,7 @@ function trigo(callback, angle) {
 function inv_trigo(callback, value) {
   if (callback.name != "atan") {
     if (value < -1 || value > 1) {
-      alert("Please enter a number in the randge between -1 to 1 of acos");
+      alert("Please enter a number in the range between -1 to 1 of acos");
       return NaN;
     }
   }
